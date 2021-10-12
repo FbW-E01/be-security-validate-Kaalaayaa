@@ -1,0 +1,57 @@
+POST http://localhost:9004/birds
+Content-Type: application/json
+
+{
+    "species" : "Hummingbirds",
+    "notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget est interdum, tempor lorem et, rhoncus neque.",
+    "estimatedAmount": 3000
+}
+
+###
+
+POST http://localhost:9004/birds
+Content-Type: application/json
+
+{
+    "species" : "E",
+    "notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget est interdum, tempor lorem et, rhoncus neque.",
+    "estimatedAmount": 3
+}
+
+###
+
+POST http://localhost:9004/birds
+Content-Type: application/json
+
+{
+    "species" : "Seriemas",
+    "notes": "Lorem 8956ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget est interdum, tempor lorem et, rhoncus neque.",
+    "estimatedAmount": "five"
+}
+
+###
+
+POST http://localhost:9004/birds
+Content-Type: application/json
+
+{
+    "species" : "Shorebirds",
+    "notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget est interdum, tempor lorem et, rhoncus neque.",
+    "estimatedAmount": 250
+}
+
+###
+
+
+POST http://localhost:9004/birds
+Content-Type: application/json
+
+{
+    "species" : "Herons",
+    "notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget est interdum, tempor lorem et, rhoncus neque.",
+    "estimatedAmount": 60
+}
+
+###
+
+GET http://localhost:9004/birds
